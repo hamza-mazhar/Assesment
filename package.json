@@ -1,0 +1,35 @@
+{
+  "name": "mongo-tut",
+  "version": "1.0.0",
+  "description": "here try to cover all mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js",
+    "client": "cd client/ && yarn start",
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"nodemon index\" \"yarn client\""
+  },
+  "author": "hamza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mocha": "^6.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.7",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+.ant-form-item {
+  display: flex !important;
+  width: 38% !important;
+}
+
+.ant-form {
+  display: flex !important;
+}
+
+.ant-form-item-label {
+  overflow: inherit !important;
+}
